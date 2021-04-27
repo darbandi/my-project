@@ -1,0 +1,76 @@
+body {
+  direction: ltr;
+  margin-top: 50px;
+}
+.container {
+  background-image: linear-gradient(to right, #ff494e, #ff5c7e);
+  width: 400px;
+  margin: 0 auto;
+  padding: 10px 30px 30px;
+}
+.page-title {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.todo-add {
+  display: flex;
+}
+.input-text {
+  background-color: white;
+  border: none;
+  height: 36px;
+  padding: 0 10px;
+  width: 100%;
+}
+.btn-add {
+  background-color: white;
+  border: none;
+  padding: 0 10px;
+  color: #4dacff;
+  font-weight: bold;
+}
+.todo-list {
+  background-color: white;
+  padding: 0 10px;
+  list-style: none;
+  margin: 0;
+  margin-top: 30px;
+  text-align: left;
+}
+.todo-item {
+  padding: 10px 0;
+  border-bottom: 1px solid silver;
+}
+.checkbox {
+  margin-right: 12px;
+}
+.todo-title {
+  color: gray;
+  cursor: pointer;
+}
+.todo-delete {
+  float: right;
+  color: red;
+  cursor: pointer;
+}
+.todo-clear {
+  text-align: right;
+}
+.btn-clear {
+  margin-top: 30px;
+  background-color: white;
+  border: none;
+  padding: 8px 20px;
+  color: red;
+  font-weight: bold;
+  clear: both;
+}
+.not-fount {
+  background-color: transparent;
+  color: white;
+}
+.done {
+  color: red;
+  text-decoration: line-through;
+}
